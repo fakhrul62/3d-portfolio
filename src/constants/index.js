@@ -58,11 +58,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'CodeChronic – Trend-Focused Tech Blog',
+      desc: 'CodeChronic is a performance-optimized tech and astrology blog designed to deliver daily trending content. It provides news, insights, and tutorials in a highly responsive, fast, and user-friendly interface.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built using React, React Router, Firebase, Tailwind CSS, and Context API, CodeChronic is SEO-optimized with Yoast Premium and designed for scalability, performance, and consistent publishing.',
+      href: 'https://codechronic.com',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -72,34 +72,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight1.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'React.js', path: '/assets/react.svg' },
+        { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+        { id: 3, name: 'Firebase', path: '/assets/firebase.svg' },
+        { id: 4, name: 'Context API', path: '/assets/api.svg' },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'ShopSync – eCommerce & POS Invoice System',
+      desc: 'ShopSync is an integrated solution that connects online WordPress stores and offline POS systems. It enables invoice generation and delivery through SMS or email, offering seamless retail and inventory management.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'Built using WordPress, WooCommerce, PHP, and SMS Gateway APIs, ShopSync bridges digital and physical store operations with automated invoicing and streamlined sales tracking.',
+      href: 'https://your-ecommerce-demo.com',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -109,34 +93,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight2.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'WordPress', path: '/assets/wordpress.svg' },
+        { id: 2, name: 'WooCommerce', path: '/assets/woocommerce.svg' },
+        { id: 3, name: 'PHP', path: '/assets/php.svg' },
+        { id: 4, name: 'API Integration', path: '/assets/api.svg' },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Vision3D – Interactive 3D Model Viewer',
+      desc: 'Vision3D is a web-based application for rendering interactive 3D models in real time. Users can explore animated scenes with seamless camera control and environment effects.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'Created using React, Three.js, Tailwind CSS, and Vite, this project highlights advanced front-end rendering techniques and optimization for 3D visualization in the browser.',
+      href: 'https://github.com/fakhrul62/vision3d',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -148,34 +116,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight3.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'Three.js', path: '/assets/three.png' },
+        { id: 2, name: 'React.js', path: '/assets/react.svg' },
+        { id: 3, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
+        { id: 4, name: 'Vite', path: '/assets/vite.svg' },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'DeepSight – Deepfake Detection System',
+      desc: 'DeepSight is an AI-driven research tool for detecting deepfakes using visual and audio analysis. Built for academic simulation, it focuses on raising awareness of deepfake-related cyber threats.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'Developed using Python, TensorFlow, OpenCV, and the AV-Deepfake1M dataset, DeepSight simulates real-time threat detection with a custom-built classification and reporting interface.',
+      href: 'https://github.com/fakhrul62/deepsight',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -185,34 +137,18 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight4.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'Python', path: '/assets/python.svg' },
+        { id: 2, name: 'TensorFlow', path: '/assets/tensorflow.svg' },
+        { id: 3, name: 'OpenCV', path: '/assets/opencv.svg' },
+        { id: 4, name: 'AV-Deepfake1M', path: '/assets/ai.svg' },
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'EduVerse – University Course Portal',
+      desc: 'EduVerse is a student-first academic portal for accessing materials, submitting assignments, and managing course schedules with real-time updates.',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Built using React, Firebase Auth, Firestore, and Tailwind CSS, EduVerse offers a clean dashboard with role-based access control and dynamic data syncing.',
+      href: 'https://eduverse-demo.web.app',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
@@ -222,29 +158,14 @@ export const navLinks = [
       },
       spotlight: '/assets/spotlight5.png',
       tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+        { id: 1, name: 'React.js', path: '/assets/react.svg' },
+        { id: 2, name: 'Firebase', path: '/assets/firebase.svg' },
+        { id: 3, name: 'Firestore', path: '/assets/firestore.svg' },
+        { id: 4, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
       ],
-    },
-  ];
+    }
+  ]
+  ;
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
