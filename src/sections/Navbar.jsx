@@ -12,7 +12,7 @@ const Navbar = () => {
         {navLinks.map(({ id, href, name }) => (
           <li
             key={id}
-            className="text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-black-500 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5"
+            className="text-neutral-400 hover:text-white font-generalsans max-sm:hover:bg-zinc-800 max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5"
           >
             <a
               href={href}
