@@ -36,21 +36,33 @@ const Projects = () => {
           </div>
           <div className="flex items-center justify-between flex-wrap gap-5">
             <div className="flex items-center gap-3">
-                {currentProject.tags.map((tag) => (
-                    <div
-                    key={tag.id}
-                    className="flex items-center gap-2 p-2 rounded-lg bg-zinc-900"
-                    >
-                    <img src={tag.path} alt={tag.name} className="w-5 h-5" />
-                    <p className="text-sm text-slate-400">{tag.name}</p>
-                    </div>
-                ))}
+              {currentProject.tags.map((tag) => (
+                <div
+                  key={tag.id}
+                  className="w-10 h-10 rounded-md p-2 bg-neutral-800 backdrop-filter backdrop-blur-lg flex justify-center items-center"
+                >
+                  <img src={tag.path} alt={tag.name} />
+                </div>
+              ))}
             </div>
+            <a
+              href={currentProject.href}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 cursor-pointer text-slate-400"
+            >
+              <p>Check Live Site</p>
+              <img
+                src="/assets/arrow-up.png"
+                alt="arrow-up"
+                className="h-3 w-3"
+              />
+            </a>
           </div>
         </div>
       </div>
     </section>
   );
 };
-
+// 3:15:0
 export default Projects;
