@@ -49,7 +49,7 @@ const Contact = () => {
           alt="terminal"
           className="absolute inset-0 min-h-screen"
         />
-        <div className="max-w-xl relative z-10 sm:px-10 px-5 mt-12">
+        <div className="max-w-xl relative z-10 sm:px-10 px-5 mt-32">
           <h3 className="sm:text-4xl text-3xl font-semibold bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent">
             Get in Touch
           </h3>
