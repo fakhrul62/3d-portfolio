@@ -62,7 +62,7 @@ export const navLinks = [
       desc: 'CodeChronic is a performance-optimized tech and astrology blog designed to deliver daily trending content. It provides news, insights, and tutorials in a highly responsive, fast, and user-friendly interface.',
       subdesc:
         'Built using React, React Router, Firebase, Tailwind CSS, and Context API, CodeChronic is SEO-optimized with Yoast Premium and designed for scalability, performance, and consistent publishing.',
-      href: 'https://codechronic.com',
+      href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -83,7 +83,7 @@ export const navLinks = [
       desc: 'ShopSync is an integrated solution that connects online WordPress stores and offline POS systems. It enables invoice generation and delivery through SMS or email, offering seamless retail and inventory management.',
       subdesc:
         'Built using WordPress, WooCommerce, PHP, and SMS Gateway APIs, ShopSync bridges digital and physical store operations with automated invoicing and streamlined sales tracking.',
-      href: 'https://your-ecommerce-demo.com',
+      href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -104,7 +104,7 @@ export const navLinks = [
       desc: 'Vision3D is a web-based application for rendering interactive 3D models in real time. Users can explore animated scenes with seamless camera control and environment effects.',
       subdesc:
         'Created using React, Three.js, Tailwind CSS, and Vite, this project highlights advanced front-end rendering techniques and optimization for 3D visualization in the browser.',
-      href: 'https://github.com/fakhrul62/vision3d',
+      href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
@@ -127,7 +127,7 @@ export const navLinks = [
       desc: 'DeepSight is an AI-driven research tool for detecting deepfakes using visual and audio analysis. Built for academic simulation, it focuses on raising awareness of deepfake-related cyber threats.',
       subdesc:
         'Developed using Python, TensorFlow, OpenCV, and the AV-Deepfake1M dataset, DeepSight simulates real-time threat detection with a custom-built classification and reporting interface.',
-      href: 'https://github.com/fakhrul62/deepsight',
+      href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -148,7 +148,7 @@ export const navLinks = [
       desc: 'EduVerse is a student-first academic portal for accessing materials, submitting assignments, and managing course schedules with real-time updates.',
       subdesc:
         'Built using React, Firebase Auth, Firestore, and Tailwind CSS, EduVerse offers a clean dashboard with role-based access control and dynamic data syncing.',
-      href: 'https://eduverse-demo.web.app',
+      href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {

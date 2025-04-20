@@ -1,5 +1,9 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { myProjects } from "../constants";
+import { Canvas } from "@react-three/fiber";
+import { Center, OrbitControls } from "@react-three/drei";
+import DemoComputer from "../components/DemoComputer";
+import CanvasLoader from "../components/CanvasLoader";
 
 const projectCount = myProjects.length;
 
@@ -7,14 +11,13 @@ const Projects = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = React.useState(0);
   const currentProject = myProjects[selectedProjectIndex];
   const handleNavigation = (direction) => {
-    setSelectedProjectIndex((prevIndex)=>{
+    setSelectedProjectIndex((prevIndex) => {
       if (direction === "prev") {
         return prevIndex === 0 ? projectCount - 1 : prevIndex - 1;
-      }
-      else{
+      } else {
         return prevIndex === projectCount - 1 ? 0 : prevIndex + 1;
       }
-    })
+    });
   };
   return (
     <section className="sm:px-10 px-5 my-20" id="projects">
@@ -77,15 +80,37 @@ const Projects = () => {
               className="w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient"
               onClick={() => handleNavigation("prev")}
             >
-              <img src="/assets/left-arrow.png" alt="left-arrow" className="w-4 h-4" />
+              <img
+                src="/assets/left-arrow.png"
+                alt="left-arrow"
+                className="w-4 h-4"
+              />
             </button>
             <button
               className="w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient"
               onClick={() => handleNavigation("next")}
             >
-              <img src="/assets/right-arrow.png" alt="right-arrow" className="w-4 h-4" />
+              <img
+                src="/assets/right-arrow.png"
+                alt="right-arrow"
+                className="w-4 h-4"
+              />
             </button>
           </div>
+        </div>
+        <div className="border border-black-300 bg-zinc-900 rounded-lg h-96 md:h-full">
+          <Canvas>
+            <ambientLight intensity={Math.PI} />
+            <directionalLight position={[10, 10, 5]} />
+            <Center>
+              <Suspense fallback={<CanvasLoader/>}> 
+                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
+                  <DemoComputer texture={currentProject.texture}/>
+                </group>
+              </Suspense>
+            </Center>
+            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+          </Canvas>
         </div>
       </div>
     </section>

@@ -191,5 +191,19 @@ body {
   }
 }
 
+Your Custom Color | Hex | Closest Tailwind Color | Tailwind Class
+black.DEFAULT | #000000 | black | bg-black
+black.100 | #010103 | neutral-950 | bg-neutral-950
+black.200 | #0E0E10 | zinc-950 | bg-zinc-950
+black.300 | #1C1C21 | gray-900 | bg-gray-900
+black.500 | #3A3A49 | gray-800 / zinc-800 | bg-gray-800
+black.600 | #1A1A1A | neutral-900 / zinc-900 | bg-neutral-900
+
+Your Custom Color | Hex | Closest Tailwind Color | Tailwind Class
+white.DEFAULT | #FFFFFF | white | bg-white
+white.800 | #E4E4E6 | gray-200 / slate-200 | bg-gray-200
+white.700 | #D6D9E9 | slate-300 | bg-slate-300
+white.600 | #AFB0B6 | slate-400 / gray-400 | bg-slate-400
+white.500 | #62646C | gray-600 / slate-600 | bg-slate-600
 
 */
