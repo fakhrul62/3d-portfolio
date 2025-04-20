@@ -1,8 +1,21 @@
 import React from "react";
 import { myProjects } from "../constants";
 
+const projectCount = myProjects.length;
+
 const Projects = () => {
-  const currentProject = myProjects[0];
+  const [selectedProjectIndex, setSelectedProjectIndex] = React.useState(0);
+  const currentProject = myProjects[selectedProjectIndex];
+  const handleNavigation = (direction) => {
+    setSelectedProjectIndex((prevIndex)=>{
+      if (direction === "prev") {
+        return prevIndex === 0 ? projectCount - 1 : prevIndex - 1;
+      }
+      else{
+        return prevIndex === projectCount - 1 ? 0 : prevIndex + 1;
+      }
+    })
+  };
   return (
     <section className="sm:px-10 px-5 my-20" id="projects">
       <p className="sm:text-4xl text-3xl font-semibold bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent">
@@ -58,6 +71,20 @@ const Projects = () => {
                 className="h-3 w-3"
               />
             </a>
+          </div>
+          <div className="flex justify-between items-center mt-7">
+            <button
+              className="w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient"
+              onClick={() => handleNavigation("prev")}
+            >
+              <img src="/assets/left-arrow.png" alt="left-arrow" className="w-4 h-4" />
+            </button>
+            <button
+              className="w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full arrow-gradient"
+              onClick={() => handleNavigation("next")}
+            >
+              <img src="/assets/right-arrow.png" alt="right-arrow" className="w-4 h-4" />
+            </button>
           </div>
         </div>
       </div>
