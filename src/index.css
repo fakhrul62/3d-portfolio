@@ -11,6 +11,9 @@ body {
   font-family: 'General Sans', sans-serif;
 }
 
+.hide{
+  display: hide!important;
+}
 
 .waving-hand {
   animation-name: wave-animation;
