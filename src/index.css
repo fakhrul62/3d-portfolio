@@ -64,7 +64,7 @@ body {
 
 @layer utilities {
   .c-space {
-    @apply sm:px-10 px-5;
+    @apply sm:px-10 px-5 my-20;
   }
 
   .head-text {
