@@ -19,7 +19,7 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="w-full h-full border border-gray-900 bg-neutral-950 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <img
-              src="/assets/grid1.png"
+              src="/3d-portfolio/assets/grid1.png"
               alt="grid-1"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -37,7 +37,7 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="w-full h-full border border-gray-900 bg-zinc-950 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <img
-              src="/assets/grid2.png"
+              src="/3d-portfolio/assets/grid2.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
             />
@@ -91,7 +91,7 @@ const About = () => {
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="w-full h-full border border-gray-900 bg-zinc-950 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <img
-              src="/assets/grid3.png"
+              src="/3d-portfolio/assets/grid3.png"
               alt="grid-3"
               className="w-full sm:h-[266px] h-fit object-contain"
             />
@@ -110,7 +110,7 @@ const About = () => {
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="w-full h-full border border-gray-900 bg-zinc-950 rounded-lg sm:p-7 p-4 flex flex-col gap-5">
             <img
-              src="/assets/grid4.png"
+              src="/3d-portfolio/assets/grid4.png"
               alt="grid-4"
               className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top"
             />

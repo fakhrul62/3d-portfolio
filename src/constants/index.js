@@ -63,19 +63,19 @@ export const navLinks = [
       subdesc:
         'Built using React, React Router, Firebase, Tailwind CSS, and Context API, CodeChronic is SEO-optimized with Yoast Premium and designed for scalability, performance, and consistent publishing.',
       href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      texture: '/3d-portfolio/textures/project/project1.mp4',
+      logo: '/3d-portfolio/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: '/3d-portfolio/assets/spotlight1.png',
       tags: [
-        { id: 1, name: 'React.js', path: '/assets/react.svg' },
+        { id: 1, name: 'React.js', path: '/3d-portfolio/assets/react.svg' },
         { id: 2, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
-        { id: 3, name: 'Firebase', path: '/assets/firebase.svg' },
-        { id: 4, name: 'Context API', path: '/assets/api.svg' },
+        { id: 3, name: 'Firebase', path: '/3d-portfolio/assets/firebase.svg' },
+        { id: 4, name: 'Context API', path: '/3d-portfolio/assets/api.svg' },
       ],
     },
     {
@@ -84,19 +84,19 @@ export const navLinks = [
       subdesc:
         'Built using WordPress, WooCommerce, PHP, and SMS Gateway APIs, ShopSync bridges digital and physical store operations with automated invoicing and streamlined sales tracking.',
       href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      texture: '/3d-portfolio/textures/project/project2.mp4',
+      logo: '/3d-portfolio/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
-      spotlight: '/assets/spotlight2.png',
+      spotlight: '/3d-portfolio/assets/spotlight2.png',
       tags: [
-        { id: 1, name: 'WordPress', path: '/assets/wordpress.svg' },
-        { id: 2, name: 'WooCommerce', path: '/assets/woocommerce.svg' },
-        { id: 3, name: 'PHP', path: '/assets/php.svg' },
-        { id: 4, name: 'API Integration', path: '/assets/api.svg' },
+        { id: 1, name: 'WordPress', path: '/3d-portfolio/assets/wordpress.svg' },
+        { id: 2, name: 'WooCommerce', path: '/3d-portfolio/assets/woocommerce.svg' },
+        { id: 3, name: 'PHP', path: '/3d-portfolio/assets/php.svg' },
+        { id: 4, name: 'API Integration', path: '/3d-portfolio/assets/api.svg' },
       ],
     },
     {
@@ -105,8 +105,8 @@ export const navLinks = [
       subdesc:
         'Created using React, Three.js, Tailwind CSS, and Vite, this project highlights advanced front-end rendering techniques and optimization for 3D visualization in the browser.',
       href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
-      texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      texture: '/3d-portfolio/textures/project/project3.mp4',
+      logo: '/3d-portfolio/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -114,12 +114,12 @@ export const navLinks = [
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: '/3d-portfolio/assets/spotlight3.png',
       tags: [
-        { id: 1, name: 'Three.js', path: '/assets/three.png' },
-        { id: 2, name: 'React.js', path: '/assets/react.svg' },
+        { id: 1, name: 'Three.js', path: '/3d-portfolio/assets/three.png' },
+        { id: 2, name: 'React.js', path: '/3d-portfolio/assets/react.svg' },
         { id: 3, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
-        { id: 4, name: 'Vite', path: '/assets/vite.svg' },
+        { id: 4, name: 'Vite', path: '/3d-portfolio/assets/vite.svg' },
       ],
     },
     {
@@ -128,19 +128,19 @@ export const navLinks = [
       subdesc:
         'Developed using Python, TensorFlow, OpenCV, and the AV-Deepfake1M dataset, DeepSight simulates real-time threat detection with a custom-built classification and reporting interface.',
       href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      texture: '/3d-portfolio/textures/project/project4.mp4',
+      logo: '/3d-portfolio/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
         boxShadow: '0px 0px 60px 0px #2F67B64D',
       },
-      spotlight: '/assets/spotlight4.png',
+      spotlight: '/3d-portfolio/assets/spotlight4.png',
       tags: [
-        { id: 1, name: 'Python', path: '/assets/python.svg' },
-        { id: 2, name: 'TensorFlow', path: '/assets/tensorflow.svg' },
-        { id: 3, name: 'OpenCV', path: '/assets/opencv.svg' },
-        { id: 4, name: 'AV-Deepfake1M', path: '/assets/ai.svg' },
+        { id: 1, name: 'Python', path: '/3d-portfolio/assets/python.svg' },
+        { id: 2, name: 'TensorFlow', path: '/3d-portfolio/assets/tensorflow.svg' },
+        { id: 3, name: 'OpenCV', path: '/3d-portfolio/assets/opencv.svg' },
+        { id: 4, name: 'AV-Deepfake1M', path: '/3d-portfolio/assets/ai.svg' },
       ],
     },
     {
@@ -149,18 +149,18 @@ export const navLinks = [
       subdesc:
         'Built using React, Firebase Auth, Firestore, and Tailwind CSS, EduVerse offers a clean dashboard with role-based access control and dynamic data syncing.',
       href: 'https://youtu.be/dQw4w9WgXcQ?si=0EkCZ_8AskzO7XHB',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
+      texture: '/3d-portfolio/textures/project/project5.mp4',
+      logo: '/3d-portfolio/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
         border: '0.2px solid #252262',
         boxShadow: '0px 0px 60px 0px #635BFF4D',
       },
-      spotlight: '/assets/spotlight5.png',
+      spotlight: '/3d-portfolio/assets/spotlight5.png',
       tags: [
-        { id: 1, name: 'React.js', path: '/assets/react.svg' },
-        { id: 2, name: 'Firebase', path: '/assets/firebase.svg' },
-        { id: 3, name: 'Firestore', path: '/assets/firestore.svg' },
+        { id: 1, name: 'React.js', path: '/3d-portfolio/assets/react.svg' },
+        { id: 2, name: 'Firebase', path: '/3d-portfolio/assets/firebase.svg' },
+        { id: 3, name: 'Firestore', path: '/3d-portfolio/assets/firestore.svg' },
         { id: 4, name: 'TailwindCSS', path: 'assets/tailwindcss.png' },
       ],
     }
@@ -185,7 +185,7 @@ export const navLinks = [
       pos: 'Lead Web Developer',
       duration: '2022 - Present',
       title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      icon: '/3d-portfolio/assets/framer.svg',
       animation: 'victory',
     },
     {
@@ -194,7 +194,7 @@ export const navLinks = [
       pos: 'Web Developer',
       duration: '2020 - 2022',
       title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      icon: '/3d-portfolio/assets/figma.svg',
       animation: 'clapping',
     },
     {
@@ -203,7 +203,7 @@ export const navLinks = [
       pos: 'Junior Web Developer',
       duration: '2019 - 2020',
       title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      icon: '/3d-portfolio/assets/notion.svg',
       animation: 'salute',
     },
   ];

@@ -6,14 +6,14 @@ import { SkeletonUtils } from 'three-stdlib';
 const Developer = ({ animationName = 'salute', ...props }) => {
   const group = useRef();
 
-  const { scene } = useGLTF('/models/animations/dev.glb');
+  const { scene } = useGLTF('/3d-portfolio/models/animations/dev.glb');
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const { nodes, materials } = useGraph(clone);
 
-  const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx');
-  const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx');
-  const { animations: clappingAnimation } = useFBX('/models/animations/happy.fbx');
-  const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx');
+  const { animations: idleAnimation } = useFBX('/3d-portfolio/models/animations/idle.fbx');
+  const { animations: saluteAnimation } = useFBX('/3d-portfolio/models/animations/salute.fbx');
+  const { animations: clappingAnimation } = useFBX('/3d-portfolio/models/animations/happy.fbx');
+  const { animations: victoryAnimation } = useFBX('/3d-portfolio/models/animations/victory.fbx');
 
   idleAnimation[0].name = 'idle';
   saluteAnimation[0].name = 'salute';
@@ -99,6 +99,6 @@ const Developer = ({ animationName = 'salute', ...props }) => {
   );
 };
 
-useGLTF.preload('/models/animations/dev.glb');
+useGLTF.preload('/3d-portfolio/models/animations/dev.glb');
 
 export default Developer;

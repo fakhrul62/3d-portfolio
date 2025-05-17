@@ -69,7 +69,7 @@ const Projects = () => {
             >
               <p>Check Live Site</p>
               <img
-                src="/assets/arrow-up.png"
+                src="/3d-portfolio/assets/arrow-up.png"
                 alt="arrow-up"
                 className="h-3 w-3"
               />
@@ -81,7 +81,7 @@ const Projects = () => {
               onClick={() => handleNavigation("prev")}
             >
               <img
-                src="/assets/left-arrow.png"
+                src="/3d-portfolio/assets/left-arrow.png"
                 alt="left-arrow"
                 className="w-4 h-4"
               />
@@ -91,7 +91,7 @@ const Projects = () => {
               onClick={() => handleNavigation("next")}
             >
               <img
-                src="/assets/right-arrow.png"
+                src="/3d-portfolio/assets/right-arrow.png"
                 alt="right-arrow"
                 className="w-4 h-4"
               />

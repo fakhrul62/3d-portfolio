@@ -45,7 +45,7 @@ const Contact = () => {
     <section id="contact" className="sm:px-10 px-5 my-20">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img
-          src="/assets/terminal.png"
+          src="/3d-portfolio/assets/terminal.png"
           alt="terminal"
           className="absolute inset-0 min-h-screen"
         />
@@ -102,11 +102,11 @@ const Contact = () => {
               disabled={loading}
             >
               {loading
-                ? // <img src="/assets/arrow-up.png" alt="loading" className="w-6 h-6 animate-spin" />
+                ? // <img src="/3d-portfolio/assets/arrow-up.png" alt="loading" className="w-6 h-6 animate-spin" />
                   "Sending..."
                 : "Send Message"}
               <img
-                src="/assets/arrow-up.png"
+                src="/3d-portfolio/assets/arrow-up.png"
                 alt="loading"
                 className="w-2.5 h-2.5 object-contain invert brightness-0"
               />

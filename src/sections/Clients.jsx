@@ -30,7 +30,7 @@ const Clients = () => {
                 {Array.from({ length: 5 }).map((_, index) => (
                   <img
                     key={index}
-                    src="/assets/star.png"
+                    src="/3d-portfolio/assets/star.png"
                     alt="star"
                     className="w-4 h-4"
                   />

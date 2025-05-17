@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto ">
         <div className="flex items-center justify-between py-5 mx-auto sm:px-10 px-5">
           <a
-            href="/"
+            href="/3d-portfolio"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
             Fakhrul

@@ -10,13 +10,13 @@ const Footer = () => {
         </div>
         <div className='flex gap-3'>
             <div className=' w-12 h-12 rounded-full flex justify-center items-center bg-zinc-900 border border-zinc-950'>
-                <img src="/assets/github.svg" alt="GitHub" className='w-1/2 h-1/2'/>
+                <img src="/3d-portfolio/assets/github.svg" alt="GitHub" className='w-1/2 h-1/2'/>
             </div>
             <div className=' w-12 h-12 rounded-full flex justify-center items-center bg-zinc-900 border border-zinc-950'>
-                <img src="/assets/instagram.svg" alt="Instagram" className='w-1/2 h-1/2'/>
+                <img src="/3d-portfolio/assets/instagram.svg" alt="Instagram" className='w-1/2 h-1/2'/>
             </div>
             <div className=' w-12 h-12 rounded-full flex justify-center items-center bg-zinc-900 border border-zinc-950'>
-                <img src="/assets/twitter.svg" alt="Twitter" className='w-1/2 h-1/2'/>
+                <img src="/3d-portfolio/assets/twitter.svg" alt="Twitter" className='w-1/2 h-1/2'/>
             </div>
         </div>
         <p className='text-zinc-600'>© 2025 Fakhrul Alam. All rights reserved.</p>

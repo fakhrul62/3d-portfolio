@@ -7,7 +7,7 @@ export default {
         generalsans: ["General Sans", "sans-serif"],
       },
       backgroundImage: {
-        terminal: "url('/assets/terminal.png')",
+        terminal: "url('/3d-portfolio/assets/terminal.png')",
       },
     },
     
